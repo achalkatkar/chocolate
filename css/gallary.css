@@ -1,0 +1,32 @@
+.heading
+       {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 10px;
+       }
+       .parent
+       {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+       }
+       .img-books
+       {
+        height: 230px;
+        width: 200px;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 5px;
+       }
+       .images
+       {
+        height: 300px;
+        width: 230px;
+        background-color: rgb(228, 227, 224);
+        margin: 10px;
+        border-radius: 10px;
+       }
+       .para
+       {
+        font-size: large;
+        text-align: center;
+       }
