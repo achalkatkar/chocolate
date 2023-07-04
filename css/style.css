@@ -1,4 +1,27 @@
-
+.navbar
+{
+  text-align: right;
+  padding: 10px;
+}
+.menu
+{
+   text-decoration: none;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   padding: 10px;
+}
+.heading
+{
+    font-family:  Calibri, sans-serif;
+    font-size: 40px;
+    color: red;
+}
+.container
+{
+  width: 400px;
+  height: 400px;
+  margin: 50px;
+}
 
 
      
