@@ -19,15 +19,19 @@
         </div>
         <div class="container">
         <h1> Library Management System-Registration</h1>
-        <form action="registration.html"method="post">
-            <label for="name"> Name:</label>
-            <input type="text" id="name" name="name" required placeholder="Enter your full name">
-            <label for="username"> Username:</label>
-            <input type="text" id="username" name="username" required placeholder="Enter email or mobile">
-            <label for="password"> Password:</label>
-            <input type="password" id="password"name="password" required placeholder="Enter your password">
-            <label for="confirm password" > Confirm Password:</label>
-            <input type="password"" id=" password" name="password"required placeholder="Re-enter your password">
+        <form>
+            <div> 
+                <p class="label"> Username:</p>
+            <input class="username"  type="text" id="username" name="username" required placeholder="Enter email or mobile">
+            </div>
+            <div>
+                <p class="label"> Password:</p>
+            <input class="password" id="password"name="password" required placeholder="Enter your password">
+            </div>
+            <div>
+                <p class="label"> Confirm password</p>
+            <input class="password"" id=" password" name="password"required placeholder="Re-enter your password">
+            </div>
             <br/>
             <button class="register-btn"> Register</button>
             <div class="message">
