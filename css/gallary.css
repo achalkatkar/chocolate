@@ -18,6 +18,7 @@ body{
    margin-bottom: 20px;
    padding: 10px;
 }
+<<<<<<< HEAD
 .heading-li
 {
     font-family:  Calibri, sans-serif;
@@ -28,6 +29,9 @@ body{
     
 }
      .heading
+=======
+      .heading
+>>>>>>> 93b95cfd90ff7d8edd0a4b329006ef85e69bc4ee
 
        {
         font-family:Verdana, Geneva, Tahoma, sans-serif;
