@@ -12,9 +12,9 @@ body{
     padding: 10px;
     border-radius: 20px;
     border-top:18px solid #cc7a00;
-    border-bottom:3px solid #cc7a00 ;
-    border-left:3px solid #cc7a00 ;
-    border-right: 3px solid #cc7a00;
+    border-bottom:4px solid #cc7a00 ;
+    border-left:4px solid #cc7a00 ;
+    border-right: 4px solid #cc7a00;
 
 }
 .login-heading{
