@@ -18,7 +18,20 @@ body{
    margin-bottom: 20px;
    padding: 10px;
 }
+<<<<<<< HEAD
+.heading-li
+{
+    font-family:  Calibri, sans-serif;
+    font-size: 50px;
+    color: red;
+    margin: 20px;
+    text-align: left;
+    
+}
+     .heading
+=======
       .heading
+>>>>>>> 93b95cfd90ff7d8edd0a4b329006ef85e69bc4ee
 
        {
         font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -49,6 +62,12 @@ body{
         background-color: rgb(204, 140, 66);
         margin: 10px;
         border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+       }
+       .images:hover
+       {
+              transform: scale(1.1);
        }
        .para
        {
