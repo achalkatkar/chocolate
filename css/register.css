@@ -2,7 +2,9 @@
 {
   text-align: right;
   padding: 10px;
-  height: 5px;
+  position: fixed;
+  top: 30px;
+  right: 30px;
   
   
 }
@@ -16,9 +18,10 @@
 .heading
 {
     font-family:  Calibri, sans-serif;
-    font-size: 30px;
+    font-size: 45px;
     color: red;
     margin: 20px;
+    text-align: left;
 }
         
     
@@ -88,10 +91,12 @@ input[type="password"]{
 }
 .message{
     text-align: center;
-    margin-top: 20px;
-    text-decoration: none;
+    margin-top: 20px;   
+     text-decoration: none;
 
 }
+
 .login{
     text-decoration: none;
 }
+

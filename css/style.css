@@ -2,8 +2,9 @@
 {
   text-align: right;
   padding: 10px;
-  
-  
+  position: fixed;
+  top: 30px;
+  right: 30px;
 }
 .menu
 {
@@ -18,6 +19,7 @@
     font-size: 50px;
     color: red;
     margin: 20px;
+    text-align: left;
     
 }
 .container
@@ -31,16 +33,26 @@
   height: 500px;
   width: 1400px;
 }
-.heading-2
+body
 {
-  font-size: 40px;
-  margin-left: 20px;
+  background-color: #ffc266;
+  
+  font-family: sans-serif;
 }
-.text
+.section
 {
-  font-size: 20px;
-  margin-left: 20px;
-  font-family:  Calibri, sans-serif
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
 }
+.section img{
+  height: 200px;
+  border-radius: 10px;
+
+}
+
+
+
 
      
