@@ -26,6 +26,10 @@ body{
     padding: 10px;
     border-radius: 20px;
 }
+.box:hover{
+    background-color: #ff9933;
+
+}
 .img
 {
     height: 100px;
