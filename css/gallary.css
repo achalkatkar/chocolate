@@ -1,3 +1,30 @@
+body{
+       background-color: #ffc266;
+}
+.navbar
+{
+  text-align: right;
+  padding: 10px;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
+.menu
+{
+   text-decoration: none;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   padding: 10px;
+}
+.heading-Li
+{
+    font-family:  Calibri, sans-serif;
+    font-size: 50px;
+    color: red;
+    margin: 20px;
+    text-align: left;
+    
+}
 .heading
        {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
