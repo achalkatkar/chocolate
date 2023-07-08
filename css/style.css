@@ -5,7 +5,6 @@
   position: fixed;
   top: 30px;
   right: 30px;
-  color: black;
 
 }
 .menu
@@ -14,16 +13,18 @@
    margin-top: 20px;
    margin-bottom: 20px;
    padding: 10px;
+   color: black;
 }
 .menu:hover
 {
-  color: red;
+  color: black
+  ;
 }
 .heading
 {
     font-family:  Calibri, sans-serif;
     font-size: 50px;
-    color: red;
+    color: black;
     margin: 20px;
     text-align: left;
     
