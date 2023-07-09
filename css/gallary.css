@@ -17,6 +17,10 @@ body{
    margin-top: 20px;
    margin-bottom: 20px;
    padding: 10px;
+   color: black;
+}
+.menu:hover{
+       color: red;
 }
 <<<<<<< HEAD
 .heading-li
@@ -27,17 +31,15 @@ body{
     margin: 20px;
     text-align: left;
     
+    
 }
-     .heading
-=======
       .heading
->>>>>>> 93b95cfd90ff7d8edd0a4b329006ef85e69bc4ee
-
        {
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         padding: 10px;
         text-align: left;
-        margin: 20px;
+        margin-left:550px;
+        margin-bottom: 45px;
         
        }
        .parent
@@ -76,6 +78,7 @@ body{
        }
        body{
               background-color: #ffc266;
+              font-family: sans-serif;
        }
        .new-img
        {

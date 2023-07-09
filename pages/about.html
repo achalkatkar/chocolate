@@ -15,18 +15,27 @@
             bottom:740px;
             justify-content: center;
             align-items: flex-end;
+            margin-top: 45px;
             }
         .box {
-            height: 220px;
+            height: 230px;
             width: 300px;
             background-color: cornsilk;
             margin: 10px;
             padding: 10px;
+            border-radius: 10px;
              }
         .img
         {
             height: 95px;
             width: 200px;
+            border-radius: 10px;
+        }
+        .img:hover
+        {
+            transform: scale(1.010); 
+           cursor: pointer;
+           box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
         }
         .img1{
             height: 450px;
@@ -34,30 +43,78 @@
             padding-left: 5px;
         }
         .text{
+            
             padding-right: 420px;
-            color: #c28c56;
+            color: #cc3300;
             padding-left: 5px;
         }
         .ab{
             padding-left: 55px;
             padding-top: 10px;
-            font-size: 25px;
-            color: #c28c56;
+            font-size: 30px;
+            color: black;
+
            }
            .ba{
-            padding-right: 110px;
+            margin-right: 85px;
             font-size: 25px;
-            color: #c28c56;
+            color:black;
+            margin-top: 50px;
            }
            .cd{
             color:#cbcbb3;
             }
             .dc{
                color:#c28c56; 
+               
             }
+            body{
+                
+                background-color: #ffc266;
+                font-family: sans-serif;
+            }
+            .navbar
+           {
+                text-align: right;
+                 padding: 10px;
+                 position: fixed;
+                 top: 30px;
+                 right: 30px;
+
+            }
+            .menu
+            {
+                 text-decoration: none;
+                 margin-top: 20px;
+                 margin-bottom: 20px;
+                 padding: 10px;
+                 color: black;
+                 cursor: pointer;
+            }
+            .menu:hover
+            {
+                color: rgb(249, 24, 24);
+            }
+            .container
+            {
+                height: 700px;
+                width: 100%;
+            }
+
     </style>
 </head>
 <body>
+
+    <div class="navbar">
+        
+        <a href="home.html" class="menu">Home</a>
+        <a href="about.html" class="menu">About</a>
+        <a href="gallary.html" class="menu">Gallery</a>
+        <a href="register.html" class="menu">Register</a>
+        <a href="login.html" class="menu">Login</a>
+        <a href="contact.html" class="menu">Contact</a>
+
+    </div>
     <div class="container">
         <h2 class="ab">Library Management System</h2>
         <div class="left">
