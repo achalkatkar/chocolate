@@ -1,3 +1,25 @@
+.navbar
+{
+  text-align: right;
+  padding: 10px;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  
+  
+}
+.menu
+{
+   text-decoration: none;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding: 10px;
+   color: black;
+}
+.menu:hover
+{
+    color: red;
+}
 .container
 {
     height: 320px;
@@ -25,6 +47,7 @@ body{
     margin: 20px;
     padding: 10px;
     border-radius: 20px;
+    margin-top: 50px;
 }
 .box:hover{
     background-color: #ff9933;
@@ -65,4 +88,7 @@ body{
 .home
 {
     margin-top: 100px;
+}
+body{
+    font-family: sans-serif;
 }
