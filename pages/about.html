@@ -17,6 +17,14 @@
             align-items: flex-end;
             margin-top: 45px;
             }
+            
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+    .right{
+        bottom: 600px;
+    }
+}
         .box {
             height: 230px;
             width: 300px;
@@ -25,13 +33,23 @@
             padding: 10px;
             border-radius: 10px;
              }
-        .img
+             
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+    .box{
+        height:200px ;
+        width:250px ;
+        margin-right: 50px;
+    }
+}
+        .small-img
         {
             height: 95px;
             width: 200px;
             border-radius: 10px;
         }
-        .img:hover
+        .small-img:hover
         {
             transform: scale(1.010); 
            cursor: pointer;
@@ -42,32 +60,65 @@
             width: 800px;
             padding-left: 5px;
         }
+        
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+    .img1{
+        height:200px ;
+        width: 550px;
+    }
+}
         .text{
             
             padding-right: 420px;
             color: #cc3300;
             padding-left: 5px;
         }
-        .ab{
+        
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+    .text
+    {
+        font-size: 15px;
+    }
+}
+        .heading-1{
             padding-left: 55px;
             padding-top: 10px;
             font-size: 30px;
             color: black;
-
            }
-           .ba{
+           
+
+           
+
+           .heading-2{
             margin-right: 85px;
             font-size: 25px;
             color:black;
             margin-top: 50px;
            }
-           .cd{
+           
+
+           .text-1{
             color:#cbcbb3;
             }
-            .dc{
+            .text-2{
                color:#c28c56; 
                
             }
+            
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+    .text-2{
+        padding: 5px;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+}
             body{
                 
                 background-color: #ffc266;
@@ -78,43 +129,15 @@
                 height: 700px;
                 width: 100%;
             }
-            .navbar
-            {
-                text-align: right;
-                position: fixed;
-                padding: 10px;
-                top: 30px;
-                right: 30px;
-            }
-            .nav-menu
-            {
-                text-decoration: none;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                padding: 10px;
-            }
-            .nav-menu:hover{
-                color: red;
-            }
 
     </style>
 </head>
 <body>
 
-    <div class="navbar">
-
-        <a href="home.html" class="nav-menu">Home</a>
-        <a href="about.html" class="nav-menu">About</a>
-        <a href="gallary.html" class="nav-menu">Gallary</a>
-        <a href="register.html" class="nav-menu">Register</a>
-        <a href="login.html" class="nav-menu">Login</a>
-        <a href="contact.html" class="nav-menu">Contact</a>
-
-    </div>
 
 
     <div class="container">
-        <h2 class="ab">Library Management System</h2>
+        <h2 class="heading-1">Library Management System</h2>
         <div class="left">
             <img src="../img/Test img.png" class="img1"/>
             <p class="text">Library management systems are designed to manage the movement of books and maintain records of the members in a library. The software solution is designed based on the system requirements, the people involved, the content of the operation and the activity to be performed.
@@ -125,23 +148,23 @@
 
         </div>
         <div class="right">
-            <h2 class="ba">Library Management</h2>
+            <h2 class="heading-2">Library Management</h2>
             <div class="box">
-                <img src="../img/Test 1.webp" alt="img"  class="img"/>
-                <h5 class="cd">10 March 2023</h5>
-                <p class="dc">LMS is a web based solution which is developed on largest technology focused towards automating the vital activities of the Library</p>
+                <img src="../img/Test 1.webp" alt="img"  class="small-img"/>
+                <h5 class="text-1">10 March 2023</h5>
+                <p class="text-2">LMS is a web based solution which is developed on largest technology focused towards automating the vital activities of the Library</p>
             </div>
             <div class="box">
-                <img src="../img/Test 2.jpg" alt="img" class="img" />
+                <img src="../img/Test 2.jpg" alt="img" class="small-img" />
                 <div>
-                <h5 class="cd">18 April 2023</h5>
-                <p class="dc">The LMS Solution can be integrated with Barcode for easy access and retrived of any from the Library</p>
+                <h5 class="text-1">18 April 2023</h5>
+                <p class="text-2">The LMS Solution can be integrated with Barcode for easy access and retrived of any from the Library</p>
             </div>
             </div>
             <div class="box">
-                <img src="../img/Test 3.png" alt="img" class="img" />
-                <h5 class="cd">23 May 2023</h5>
-                <p class="dc">An online public access catalog facility can be provided for speedly retrived can be provided for speedly retrival of any kind of document</p>
+                <img src="../img/Test 3.png" alt="img" class="small-img" />
+                <h5 class="text-1">23 May 2023</h5>
+                <p class="text-2">An online public access catalog facility can be provided for speedly retrived can be provided for speedly retrival of any kind of document</p>
             </div>
         </div>
         

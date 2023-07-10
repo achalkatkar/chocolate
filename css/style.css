@@ -7,6 +7,15 @@
   right: 30px;
 
 }
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+  .navbar{
+    top: 20px;
+    right: 20px;
+    padding: 5px;
+  }
+}
 .menu
 {
    text-decoration: none;
@@ -14,6 +23,14 @@
    margin-bottom: 20px;
    padding: 10px;
    color: black;
+}
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+  .menu{
+    padding: 4px;
+    font-size: 15px;
+  }
 }
 .menu:hover
 {
@@ -29,6 +46,14 @@
     text-align: left;
     
 }
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+  .heading
+  {
+    font-size: 25px;
+  }
+}
 
 .container
 {
@@ -40,6 +65,16 @@
 {
   height: 500px;
   width: 1400px;
+}
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+  .library-img
+  {
+  height: 250px;
+  width: 640px;
+  margin-top: 30px;
+  }
 }
 body
 {
@@ -53,11 +88,31 @@ body
   display: flex;
   justify-content: space-between;
   padding: 40px;
+  height: 200px;
+
+}
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+  .section{
+    padding: 20px;
+    height: 90;
+}
 }
 .section img{
   height: 170px;
-  border-radius: 10px;
+  border-radius: 20px;
 
+}
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+  .section .img
+  {
+    height: 130px;
+    width: 200px;
+    margin-top: 55px;
+  }
 }
 .img{
    margin-top: 10px;
@@ -65,6 +120,27 @@ body
 .text-1
 {
   color: #cc3300;
+}
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+  .text-1
+  {
+    font-size: 15px;
+  }
+}
+.library-sys
+{
+  font-size: 38px;
+}
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+  .library-sys
+  {
+    font-size: 20px;
+    
+  }
 }
 
 

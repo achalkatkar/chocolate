@@ -1,60 +1,46 @@
-.navbar
-{
-  text-align: right;
-  padding: 10px;
-  position: fixed;
-  top: 30px;
-  right: 30px;
-  
-  
-}
-.menu
-{
-   text-decoration: none;
-   margin-top: 10px;
-   margin-bottom: 10px;
-   padding: 10px;
-   color: black;
-}
-.menu:hover
-{
-    color: red;
-}
 .container
 {
-    height: 320px;
-    
-    border-radius: 20px;
-   
-    
+    width: 95%;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px 0;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
-    margin: 30px;
 }
-body{
-    background-color: #ffc266;
-}
-
-
-.box
+.container ul 
 {
-    height: 240px;
-    width: 300px;
-    background-color: #ffd9b3;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 20px;
-    margin-top: 50px;
+    padding: 0;
+    margin: 0;
 }
-.box:hover{
-    background-color: #ff9933;
-
+.container ul li
+{
+    list-style: none;
+    float: left;
+    width: 19%;
+    height: 270px;
+    margin: 40px 30px 0px 40px;
+    box-sizing: border-box;
+    border: solid black 1px;
+    border-radius: 20px;
+    background-color: #ffd9b3;
+}
+.container ul li:hover
+{
+   opacity: 0.9;
+   background-color: #ff9933;
+}
+@media screen and (max-width:1200px)
+ {
+    .container ul li
+    {
+        width: 40%;
+        margin-left: 40px;
+    }
+    
 }
 .img
 {
+   
+
     height: 100px;
     width: 100px;
     margin-top: 40px;
@@ -64,11 +50,6 @@ body{
     margin-right: auto;
     border: solid antiquewhite 3px;
     object-fit: cover;
-}
-.text
-{
-    margin-left: 100px;
-    font-size: 20px;
 }
 .logo
 {
@@ -80,16 +61,111 @@ body{
     margin-left: 25px;
 
 }
+.text
+{
+    margin-left: 100px;
+    font-size: 20px;
+}
+body{
+    background-color: #ffc266;
+}
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+    .logo{
+        height: 25px;
+        border-radius: 50%;
+    }
+}
 .nav
 {
     height: 40px;
     width: 40px;
     margin-top: 30px;
 }
-.home
+.heading
 {
-    margin-top: 100px;
+    font-size: 40px;
+    margin-left: 600px;
 }
-body{
-    font-family: sans-serif;
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+    .heading{
+        font-size: 25px;
+        margin-left:40px;
+    }
 }
+@media screen and (min-width:767px) and (max-width: 900px)
+{
+    .heading
+    {
+        font-size: 30px;
+        margin-left: 50px;
+    }
+}
+@media screen and (min-width:900px) and (max-width: 1200px)
+{
+    .heading
+    {
+        font-size: 30px;
+        margin-left: 30px;
+    }
+
+}
+.navbar
+{
+  text-align: right;
+  padding: 10px;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  
+}
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+  .navbar{
+    top: 20px;
+    right: 20px;
+    padding: 5px;
+  }
+}
+@media screen and (min-width:767px) and (max-width: 900px)
+{
+    .navbar
+    {
+        right: 5px;
+        top: 5px;
+        padding: 5px;
+    }
+
+}
+.menu
+{
+   text-decoration: none;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding: 10px;
+   color: black;
+}
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+  .menu{
+    padding: 4px;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+    .menu{
+        padding: 3px;
+        font: 20px;
+    }
+}
+.menu:hover
+{
+    color: red;
+}
+

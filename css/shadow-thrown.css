@@ -1,0 +1,49 @@
+.heading
+{
+    font-size: 40px;
+    margin: 10px ;
+}
+.book-img
+{
+    border-radius: 10px;
+    height: 300px;
+    margin: 10px;
+}
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+    .book-img
+    {
+    border-radius: 10px;
+    height: 200px;
+    }
+}
+.book-img:hover
+       {
+              transform: scale(1.1);
+       }
+body{
+    background-color: #ffc266;
+}
+.text
+{
+    font-size: 20px;
+    height: 250px;
+    width: 600px;
+    padding: 5px;
+    color: #cc3300;
+}
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+    .text
+    {
+        height: 400px;
+        width: 500px;
+    }
+}
+.heading-2
+{
+    margin-left: 10px;
+    margin-top: 20px;
+}
