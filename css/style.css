@@ -41,7 +41,7 @@
 {
     font-family:  Calibri, sans-serif;
     font-size: 50px;
-    color: black;
+    color: #804000;
     margin: 20px;
     text-align: left;
     
@@ -60,6 +60,14 @@
   width: 600px;
   height: 500px;
   margin: 30px;
+}
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+  .container{
+    height: 310px;
+
+  }
 }
 .library-img
 {
@@ -104,6 +112,7 @@ body
   border-radius: 20px;
 
 }
+
 /* mobile device*/
 @media screen and (min-width:300px) and (max-width: 768px)
 {
@@ -117,9 +126,16 @@ body
 .img{
    margin-top: 10px;
 }
+@media scree and  {(min-width: 300px) and max-width: 768)
+  {
+  .img{
+  margin-left: 150px;
+  margin-top: 40px;
+}  
+}
 .text-1
 {
-  color: #cc3300;
+  columns: #cc3300;
 }
 /* mobile device*/
 @media screen and (min-width:300px) and (max-width: 768px)
@@ -133,6 +149,7 @@ body
 {
   font-size: 38px;
 }
+
 /* mobile device*/
 @media screen and (min-width:300px) and (max-width: 768px)
 {
