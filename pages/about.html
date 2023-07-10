@@ -46,7 +46,7 @@
         .small-img
         {
             height: 95px;
-            width: 200px;
+            width: 300px;
             border-radius: 10px;
         }
         .small-img:hover
@@ -59,6 +59,7 @@
             height: 450px;
             width: 800px;
             padding-left: 5px;
+            border-radius: 10px;
         }
         
 /* mobile device*/
@@ -88,16 +89,12 @@
             padding-left: 55px;
             padding-top: 10px;
             font-size: 30px;
-            color: black;
+            color: #804000;
            }
-           
-
-           
-
-           .heading-2{
+            .heading-2{
             margin-right: 85px;
             font-size: 25px;
-            color:black;
+            color:#804000;
             margin-top: 50px;
            }
            
@@ -129,12 +126,76 @@
                 height: 700px;
                 width: 100%;
             }
+            .navbar
+{
+  text-align: right;
+  padding: 10px;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  
+}
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+  .navbar{
+    top: 20px;
+    right: 20px;
+    padding: 5px;
+  }
+}
+@media screen and (min-width:767px) and (max-width: 900px)
+{
+    .navbar
+    {
+        right: 5px;
+        top: 5px;
+        padding: 5px;
+    }
+
+}
+.menu
+{
+   text-decoration: none;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding: 10px;
+   color: black;
+}
+/* mobile device*/
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+  .menu{
+    padding: 4px;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width:300px) and (max-width: 768px)
+{
+    .menu{
+        padding: 3px;
+        font: 20px;
+    }
+}
+.menu:hover
+{
+    color: red;
+}
+
 
     </style>
 </head>
 <body>
+    <div class="navbar">
 
+        <a href="home.html" class="menu">Home</a>
+        <a href="about.html" class="menu">About</a>
+        <a href="gallary.html" class="menu">Gallary</a>
+        <a href="register.html" class="menu">Register</a>
+        <a href="login.html" class="menu">Login</a>
+        <a href="contact.html" class="menu">Contact</a>
 
+    </div>
 
     <div class="container">
         <h2 class="heading-1">Library Management System</h2>
